@@ -1,0 +1,22 @@
+| #  | Day   | Task                      | Command(s)                                                                    | Verified (Y/N) |
+| -- | ----- | ------------------------- | ----------------------------------------------------------------------------- | -------------- |
+| 1  | Day-1 | Clone repo & check remote | `git clone <url>` → `git remote -v`                                           |    Y            |
+| 2  | Day-1 | Create & push branch      | `git checkout -b feature/task1` → commit → `git push -u origin feature/task1` |                |
+| 3  | Day-1 | Fetch vs Pull             | `git fetch origin` → `git pull origin main`                                   |                |
+| 4  | Day-1 | Set upstream              | `git push -u origin <branch>`                                                 |                |
+| 5  | Day-2 | Restore modified file     | `git restore <file>`                                                          |                |
+| 6  | Day-2 | Unstage file              | `git reset HEAD <file>`                                                       |                |
+| 7  | Day-2 | File history              | `git log -- <file>`                                                           |                |
+| 8  | Day-2 | File differences          | `git diff` → `git diff --staged`                                              |                |
+| 9  | Day-3 | Create & merge branch     | Create `feature/task2` → commit → merge into `dev`                            |                |
+| 10 | Day-3 | Resolve conflict          | Edit same file in 2 branches → merge → resolve                                |                |
+| 11 | Day-3 | Delete branch             | `git branch -d <branch>` → `git push origin --delete <branch>`                |                |
+| 12 | Day-3 | List tracking branches    | `git branch -vv`                                                              |                |
+| 13 | Day-4 | Stash & restore           | Modify file → `git stash -u` → `git stash pop`                                |                |
+| 14 | Day-4 | Reset soft vs hard        | Create 2 commits → `git reset --soft HEAD~1` → `git reset --hard HEAD~1`      |                |
+| 15 | Day-4 | Recover lost commit       | `git reflog` → `git checkout -b recovered <commit>`                           |                |
+| 16 | Day-4 | Clean untracked           | Create junk → `git clean -n` → `git clean -f`                                 |                |
+| 17 | Day-5 | Revert commit             | `git revert <commit>`                                                         |                |
+| 18 | Day-5 | Amend commit              | `git commit --amend -m "new msg"`                                             |                |
+| 19 | Day-5 | Interactive rebase        | Create 3 commits → `git rebase -i HEAD~3`                                     |                |
+| 20 | Day-5 | Cherry-pick commit        | `git cherry-pick <commit>`                                                    |                |
