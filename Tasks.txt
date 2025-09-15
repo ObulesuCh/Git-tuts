@@ -1,7 +1,7 @@
 | #  | Day   | Task                      | Command(s)                                                                    | Verified (Y/N) |
 | -- | ----- | ------------------------- | ----------------------------------------------------------------------------- | -------------- |
 | 1  | Day-1 | Clone repo & check remote | `git clone <url>` → `git remote -v`                                           |    Y            |
-| 2  | Day-1 | Create & push branch      | `git checkout -b feature/task1` → commit → `git push -u origin feature/task1` |                |
+| 2  | Day-1 | Create & push branch      | `git checkout -b feature/task1` → commit → `git push -u origin feature/task1` |      Y          |
 | 3  | Day-1 | Fetch vs Pull             | `git fetch origin` → `git pull origin main`                                   |                |
 | 4  | Day-1 | Set upstream              | `git push -u origin <branch>`                                                 |                |
 | 5  | Day-2 | Restore modified file     | `git restore <file>`                                                          |                |
